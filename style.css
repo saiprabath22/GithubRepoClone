@@ -1,0 +1,92 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #24292f;
+        color: white;
+    }
+
+    header {
+        background-color: #24292e;
+        color: #fff;
+        padding: 10px 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header i {
+        font-size: 40px;
+    }
+
+    header input[type="text"] {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 9px;
+        margin-right: 10px;
+    }
+
+    header .user {
+        display: flex;
+        align-items: center;
+    }
+
+    header .user i {
+        font-size: 18px
+    }
+
+    header .user p {
+        margin-left: 10px;
+    }
+
+    header .nav-bar {
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    main {
+        display: flex;
+        padding: 20px;
+    }
+
+    .repository-main-page {
+        display: flex;
+        width: 100%;
+    }
+
+    .repository-left {
+        flex: 1;
+    }
+
+    .repository-mid {
+        flex: 2;
+        margin: 0 15px;
+    }
+
+    .repository-right {
+        flex: 1;
+
+    }
+
+    .repo-container {
+        padding: 10px;
+        border: 1px solid white;
+        border-radius: 7px;
+        margin: 20px 0px;
+    }
+
+    .repository-item {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .repository-item:hover {
+        background-color: #f0f0f0;
+    }
